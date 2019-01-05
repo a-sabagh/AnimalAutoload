@@ -1,0 +1,25 @@
+{
+    "name": "asabagh/animal-autoload",
+    "description": "Autoload animals using composer psr-4 convention algorithm",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "asabagh",
+            "email": "me@asabagh.ir",
+            "homepage": "http://asabagh.ir",
+            "role": "Programmer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Animals\\":"animals/"
+        },
+        "classmap": [
+            "staff"
+        ],
+        "files": [
+            "functions.php"
+        ]
+    }
+}
